@@ -1,9 +1,18 @@
 #container {
-	background-color: grey;
+	border: 2px solid grey;
 	width: 360px;
 	margin: 0 auto;
 }
 
 h1 {
 	text-align: center;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.strikethrough {
+	color: grey;
+	text-decoration: line-through;
 }
