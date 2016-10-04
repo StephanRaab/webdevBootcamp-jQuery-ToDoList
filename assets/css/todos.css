@@ -1,0 +1,9 @@
+#container {
+	background-color: grey;
+	width: 360px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
