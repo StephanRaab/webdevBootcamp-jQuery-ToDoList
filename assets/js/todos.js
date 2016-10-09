@@ -20,6 +20,11 @@ $("input[type='text']").keypress(function(event) {
 		$(this).val("");
 
 		//create new li and append to the ul
-		$('ul').append('<li><span>X</span> ' + todoText + '</li>');
+		$('ul').append('<li><span><i class="fa fa-trash"></i></span> ' + todoText + '</li>');
 	}
+})
+
+//plus button shows input field
+$('.fa-plus').on("click", function() {
+	$("input[type='text']").toggle();
 })
