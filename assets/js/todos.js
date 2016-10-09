@@ -11,6 +11,7 @@ $("ul").on("click", "span", function(event) {
 	event.stopPropagation();
 });
 
+//take input value and append to list
 $("input[type='text']").keypress(function(event) {
 	if(event.which === 13) {
 		//grabbing new todo text from input
