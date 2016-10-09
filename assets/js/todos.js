@@ -26,5 +26,5 @@ $("input[type='text']").keypress(function(event) {
 
 //plus button shows input field
 $('.fa-plus').on("click", function() {
-	$("input[type='text']").toggle();
+	$("input[type='text']").slideToggle(200);
 })
